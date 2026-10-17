@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { Header } from '../../header/header';
 import { FormsModule } from '@angular/forms';
 
@@ -45,7 +45,5 @@ trackShipment(): void {
   }
 
 }
-function signal(arg0: null): any {
-  throw new Error('Function not implemented.');
-}
+
 
